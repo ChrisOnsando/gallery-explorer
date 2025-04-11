@@ -87,6 +87,64 @@ Welcome to **Photo Explorer**, a fun and interactive React app where users can e
    ```
 
 ---
+# How to Use the Application
+
+Once **Photo Explorer** is up and running, here’s how to dive in and explore its features:
+
+## Access the App
+
+- **Live**: Visit [https://photoexplorerer.web.app](https://photoexplorerer.web.app)
+- **Local**: Run `npm run demo` and open [http://localhost:3000](http://localhost:3000)
+
+## Landing Page
+
+- You’ll land on a welcoming page titled **"Photo Explorer - Welcome"** with a scenic background and orange accents.
+- **Without Login**: See a brief intro and a **"Login with Google"** button.
+- **Action**: Click **"Login with Google"** to sign in using your Google account via Firebase Authentication.
+
+## Sign In
+
+- After clicking **"Login with Google"**, a popup will prompt you to choose a Google account.
+- Once signed in, the button changes to **"Go to Users"**, and you’re ready to explore!
+
+## Browse Users
+
+- Click **"Go to Users"** to see a list of users fetched from the JSONPlaceholder API.
+- Each user card shows their name—click a name to view their profile.
+
+## User Profile
+
+- See user details (name, email) and a list of their albums.
+- Click an album title to explore its photos.
+
+## View Albums
+
+- Browse a grid of photo thumbnails in the selected album.
+- Click a photo to view it in detail.
+
+## View and Edit Photos
+
+- **View**: See the full-size photo and its title.
+- **Edit**: If signed in, edit the photo title by typing a new one and clicking **"Save"**.
+- **Note**: Edits are simulated (local-only) since JSONPlaceholder doesn’t persist changes.
+
+## Sign Out
+
+- To log out, use the **"Logout"** option (available in the UI after implementing—see comment in code).
+- Signing out returns you to the landing page with limited access.
+
+---
+
+## Tips for Use
+
+- **Login Required**: Detailed views (profiles, albums, photos) and editing are locked until you sign in.
+- **Responsive**: Try it on mobile or desktop—the Material-UI design adapts smoothly.
+- **Mock Data**: All content comes from JSONPlaceholder, so expect placeholder names and images!
+
+---
+
+Enjoy exploring users, albums, and photos with a few clicks—and have fun editing those titles!
+
 ## 👨‍💻 Author
 
 **[Chris Onsando](https://github.com/ChrisOnsando/)** – Full Stack Developer | Tech Enthusiast
